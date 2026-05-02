@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const SectionRoutineSchema = new mongoose.Schema(
   {
     name: String,
-    timetable: { type: mongoose.Schema.Types.Mixed, required: true } // { Monday: [slot|null], ... }
+    timetable: { type: mongoose.Schema.Types.Mixed, required: true } 
   },
   { _id: false }
 );
